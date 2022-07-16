@@ -1,0 +1,34 @@
+.gallery{
+    display: flex;
+    flex-direction: column;
+    margin-top: 74px;
+    align-items: center;
+    background-color: #f8f4fa;
+
+}
+
+.g1{
+    display: flex;
+    flex-direction: row;
+   
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    
+}
+.h{
+    color: #777777;
+}
+
+.g1 img{
+    margin: 10px;
+
+}
+
+.g-img:hover{
+    position: relative;
+    width: 230px;
+    height: 270px;
+    z-index: 2;
+
+}

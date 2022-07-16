@@ -1,0 +1,91 @@
+.faqs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    
+    justify-content: center;
+    
+    margin-top: 72px;
+}
+
+h1{
+    color: #777777;
+}
+.qns{
+    width: 1200px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    margin-bottom: 15px;
+    color: #777777;
+    font-size: 20px;
+    border-radius: 50px;
+    background-color: #e9d2f5;
+
+
+}
+
+.qns:hover{
+    color: white;
+    background-color:#b01afe ;
+}
+
+.qns p{
+    
+    margin-bottom: 30px;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #777777;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+  input[type=submit] {
+    background-color: #b01afe;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #b01afe;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #e9d2f5;
+    padding: 20px;
+    width: 75%;
+  }
+  
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+  
